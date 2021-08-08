@@ -1,0 +1,179 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* Common Style and Utilities  */
+
+
+
+body{   
+    font-family: 'Poppins', sans-serif;
+    background-color:#FFFFFF;
+    
+
+    /* background-color: #2D25A0; */
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color:#FFFFFF;  for backgroud actual color  */
+}
+
+h1{
+    margin-top: 121px;
+    font-size: 64px;
+    width: 485px;
+    height: 230px;
+    color: #FFFFFF;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 114px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+
+/* Top Section style  */
+
+.top{
+    background-color: #2D25A0;
+    margin: 0px;
+}
+
+
+
+/*....................
+ Navigation style
+...................... */
+
+nav{
+    margin-top: 42px;
+    margin-left: 156px;
+    margin-right: 122px;
+    display: flex;
+    justify-content: space-between;
+   
+}   
+
+nav a{
+    text-decoration: none;
+    color:#FFFFFF;
+    margin-right: 20px;
+    
+}
+
+
+.button{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+
+
+/*---------------------
+ Banner Section Style  
+ ----------------------*/
+ .banner{
+    display: flex;
+    justify-content: center;
+ }
+
+
+.half-width{
+    width: 50%;
+}
+
+.banner-text{
+    margin-left: 156px;
+}
+
+.half-width img {
+    margin-top: 67px;
+    width: 85%;
+}
+
+
+/* Player Section Style  */
+
+.players{
+    padding: 70px 210px 165px 180px;
+    display: grid;
+    column-gap: 30px;
+    row-gap: 27px;
+    grid-template-columns: repeat(3,1fr); 
+}
+
+.player{
+    background-color: #FFFFFF;
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}    
+.player img{
+    padding: 15px;
+    width: 300px;
+    height: 256px;
+    
+}
+
+.player-info{
+    padding: 15px;
+}
+
+/* Highlight Area Style  */
+
+
+.highlight-area{
+    display: flex;
+    justify-content:space-between;
+}
+
+.highlight-text{
+    width: 466px;
+    height: 309px;
+}
+
+.highlight-text h1{
+    margin-top: 150px;
+    color: #0A0826; 
+    font-size: 48px;
+}
+
+.highlight-text p{
+    color:#6C6C6C;
+    font-size: 16px;
+}
+
+.messi-on-run img{
+    width: 567px;
+    height: 427px;
+    margin-left: 70px;
+}
+
+
+/* Last part logo area and social links style  */
+
+
+.last-part{
+    margin-top: 158px;
+    
+}
+.last-part img{
+    width: 483.87px;
+    height: 110px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
